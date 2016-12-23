@@ -14,7 +14,8 @@
         "zk": "zk://127.0.0.1:2181/mesos"
       }
     } 
-  },
+  }
+ },
   "run_list": [
   "recipe[mesos::master]"
 ]
