@@ -1,0 +1,12 @@
+{
+  "name": "mesosmaster.com",
+  "normal": {
+   "tags": [
+
+    ]
+  },
+  "run_list": [
+  "recipe[mesos::master]"
+]
+
+}
