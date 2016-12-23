@@ -1,0 +1,22 @@
+{
+  "name": "mesoslave1.com",
+  "normal": {
+   "tags": [
+
+    ]
+  },
+  "override_attributes": {
+    "mesos": {
+    "version": "1.0.1",
+    "slave": {
+      "flags": {
+        "master": "zk://10.0.1.117:2181/mesos"
+      }
+    } 
+  }
+ },
+  "run_list": [
+  "recipe[mesos::slave]"
+]
+
+}
