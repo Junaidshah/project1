@@ -10,7 +10,7 @@
     "version": "1.1.0",
     "master": {
       "flags": {
-        "cluster": "mesos-sandbox",
+        "cluster": "mesos-sandbox"
       }
     } 
   }
