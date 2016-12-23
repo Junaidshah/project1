@@ -5,6 +5,16 @@
 
     ]
   },
+  "override_attributes": {
+    "mesos": {
+    "version": 1.0.1
+    "master": {
+      "flags": {
+        "cluster": 'mesos-sandbox'
+        "zk": 'zk://127.0.0.1:2181/mesos'
+      }
+    } 
+  },
   "run_list": [
   "recipe[mesos::master]"
 ]
