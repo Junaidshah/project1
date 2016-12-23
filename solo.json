@@ -17,8 +17,7 @@
   }
  },
   "run_list": [
-  "recipe[mesos::master]",
-  "recipe[apache_spark]"
+  "recipe[mesos::master]"
 ]
 
 }
